@@ -41,3 +41,33 @@ a, b, c, d, e, f = language
 print(a)
 print(f)
 
+###División###
+
+language_slice = language[1:3]
+print(language_slice)
+
+language_slice = language[1:]
+print(language_slice)
+
+language_slice = language[-2]
+print(language_slice)
+
+language_slice = language[0:6:2]
+print(language_slice)
+
+###Reverse###
+
+reversed_language = language[::-1]
+print(reversed_language)
+
+###Funciones###
+
+print(language.capitalize())
+print(language.upper())
+print(language.count("t"))
+print(language.isnumeric())
+print("1".isnumeric())
+print(language.lower())
+print(language.upper().isupper())
+print(language.startswith("on"))
+print("Py" == "py") #no es lo mismo
