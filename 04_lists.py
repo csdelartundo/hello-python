@@ -1,4 +1,7 @@
 ###Lists###
+# Ordenada.
+# Mutable (puedes modificar elementos).
+# Permite duplicados.
 
 my_list = list()
 my_other_list = []
